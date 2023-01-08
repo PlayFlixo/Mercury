@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/movies.css">
+    <link rel="icon" type="image/png" href="assets/icon.png">
+    <title>Mercury</title>
+</head>
+<body>
+    <button id="toggle" class="dark-theme-toggle" onclick="toggleMode()"></button>
+    <div class="topnav" id="topnav">
+        <a id="topnav" href="./index.html">Home</a>
+        <a id="topnav" href="https://discord.gg/W2n8K3NEkU">Discord</a>
+        <a id="topnav" href="./movie.html">Movies</a>
+        <a id="topnav" href="#about">FAQ</a>
+    </div>
+    <div class="main-container">
+        <image src="assets/icon.png" id="image"></image>
+        <iframe src="" id="embed-player">
+
+        </iframe>
+        <input placeholder="IMBD ID (eg: tt12593682)"type="text" id="search-movie">
+    </div>
+    <script src="./movie.js"></script>
+    <script src="./darkmodetoggle.js"></script>
+</body>
+</html>
