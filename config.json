@@ -1,7 +1,0 @@
-{
-	"port": "8443",
-	"ssl": false,
-	"prefix": "/hermes/",
-	"localAddresses":[],
-	"blockedHostnames":[]
-}
